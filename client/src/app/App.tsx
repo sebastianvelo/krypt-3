@@ -90,7 +90,7 @@ const appModel: AppModel = {
 }
 
 const App: FunctionComponent = () => (
-    <div className="bg-gradient-to-tr from-primary-900 via-secondary-900 to-black min-h-screen flex justify-center">
+    <div className="bg-gradient-to-tl from-primary-900 via-secondary-900 to-black min-h-screen flex justify-center">
         <div className="md:1/2 2xl:w-3/4">
             <AppHeader {...appModel.header} />
             <AppMain {...appModel.main} />
